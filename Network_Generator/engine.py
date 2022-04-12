@@ -8,10 +8,14 @@
 
 """
 
+import math
+
 
 class Node:
-    def __init__(self, label, adj_list=[]):
+    def __init__(self, label, deg=0, max_link=math.inf, adj_list=[]):
         self.label = label
+        self.deg = deg
+        self.max_link = max_link
         self.adj_list = adj_list
 
 
@@ -28,6 +32,7 @@ class Network:
                 self.node_list = node_list
         else:
             self.node_list = node_list
+        self.max_deg_node = -1
 
     def add_node(self, node):
         self.nnodes = self.nnodes + 1

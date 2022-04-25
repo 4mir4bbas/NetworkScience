@@ -2,7 +2,7 @@
     University of Tehran,
     Department of Algorithms and Computation
     Network Science Course
-    Coded by: Amir Abbas Bakhshipour
+    Coded by: Amir Abbas Bakhshipour (bug report: bakhshipour2021@gmail.com)
 
     This is the implementation of the engine of various network generators.
 
